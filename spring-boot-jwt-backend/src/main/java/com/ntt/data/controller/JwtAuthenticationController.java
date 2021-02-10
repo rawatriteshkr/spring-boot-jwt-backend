@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ntt.data.controller.service.MyUserDetailsService;
 import com.ntt.data.model.AuthenticationReponse;
 import com.ntt.data.model.AuthenticationRequest;
+import com.ntt.data.service.MyUserDetailsService;
 import com.ntt.data.util.JwtUtil;
 
 @RestController

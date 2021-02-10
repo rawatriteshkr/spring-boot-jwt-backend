@@ -15,7 +15,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.ntt.data.controller.service.MyUserDetailsService;
+import com.ntt.data.service.MyUserDetailsService;
 import com.ntt.data.util.JwtUtil;
 
 @Component

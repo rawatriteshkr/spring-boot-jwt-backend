@@ -1,4 +1,4 @@
-package com.ntt.data.controller.config;
+package com.ntt.data.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -12,8 +12,8 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.ntt.data.controller.service.MyUserDetailsService;
 import com.ntt.data.filter.JwtRequestFilter;
+import com.ntt.data.service.MyUserDetailsService;
 
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{

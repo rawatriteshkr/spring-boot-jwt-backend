@@ -1,4 +1,4 @@
-package com.ntt.data.controller.service;
+package com.ntt.data.service;
 
 import java.util.ArrayList;
 
